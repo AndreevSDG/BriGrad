@@ -279,7 +279,10 @@ $(document).mouseup(function (e) {
 		$('.header__burger--active').css('display', 'none');
 		$('.header__burger-icon').css('display', 'block');
 		$('.header__burger-icon--close').css('display', 'none');
-
+		$('.popup__item').css('display', 'none');
+		$('.service').css('filter', 'blur(0px)');
+		$('.header').css('filter', 'blur(0px)');
+		$('.footer').css('filter', 'blur(0px)');
 	}
 });
 //-------------------------Закрытие чего-либо при нажати ESC--------------------------------
