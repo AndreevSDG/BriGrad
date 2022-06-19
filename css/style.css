@@ -1312,7 +1312,6 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: black;
 }
 .footer__inner {
   display: -webkit-box;
@@ -1324,8 +1323,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 10px 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
