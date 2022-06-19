@@ -1324,8 +1324,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 15px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 .footer__networks-item:not(:last-child) {
   margin-right: 7px;
