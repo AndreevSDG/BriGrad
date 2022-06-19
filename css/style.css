@@ -1335,7 +1335,7 @@ body {
 }
 @media (max-width: 576px) {
   .footer__copyright {
-    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
   }
 }
 .footer__developer {
