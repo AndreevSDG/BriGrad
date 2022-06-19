@@ -94,7 +94,6 @@ body {
   font-weight: 300;
   font-size: 14px;
   background: url("/img/bacground-home.jpg") 0 0/cover no-repeat;
-  overflow: hidden;
 }
 
 .wrapper {
@@ -104,6 +103,7 @@ body {
   color: white;
   padding: 0 15px;
   margin: 0 auto;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .wrapper {
