@@ -1307,11 +1307,13 @@ body {
   color: white;
 }
 
-.footer__inner {
+.footer {
   position: absolute;
   bottom: 3%;
   left: 0;
   width: 100%;
+}
+.footer__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1324,6 +1326,9 @@ body {
   padding: 0 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .footer__networks-item:not(:last-child) {
   margin-right: 7px;
