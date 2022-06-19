@@ -1309,9 +1309,10 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 3%;
+  bottom: 0;
   left: 0;
   width: 100%;
+  background-color: black;
 }
 .footer__inner {
   display: -webkit-box;
@@ -1323,12 +1324,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 .footer__networks-item:not(:last-child) {
   margin-right: 7px;
